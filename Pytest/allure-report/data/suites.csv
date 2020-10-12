@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Jul 16 20:36:07 CST 2020","Thu Jul 16 20:36:07 CST 2020","0","","test_allure","","","","test_func_2",""
+"passed","Thu Jul 16 20:36:07 CST 2020","Thu Jul 16 20:36:07 CST 2020","0","","test_allure","","","","test_func_1",""
+"passed","Thu Jul 16 20:36:07 CST 2020","Thu Jul 16 20:36:07 CST 2020","1","","test_allure","","","","test_func_0",""

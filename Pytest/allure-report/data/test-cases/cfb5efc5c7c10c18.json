@@ -1,0 +1,56 @@
+{
+  "uid" : "cfb5efc5c7c10c18",
+  "name" : "test_func_2",
+  "fullName" : "test_allure#test_func_2",
+  "historyId" : "ee7aeac931e059d2ffd3d523f5f80972",
+  "time" : {
+    "start" : 1594902967727,
+    "stop" : 1594902967727,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 2 == 0\n +  where 2 = func(-1)",
+  "statusTrace" : "def test_func_2():\n        src = -1\n        expect = 0\n>       assert func(src) == expect\nE       assert 2 == 0\nE        +  where 2 = func(-1)\n\ntest_allure.py:33: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_allure"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-book"
+  }, {
+    "name" : "thread",
+    "value" : "4464-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_allure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cfb5efc5c7c10c18.json",
+  "parameterValues" : [ ]
+}

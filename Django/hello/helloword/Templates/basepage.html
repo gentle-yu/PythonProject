@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>母模板</title>
+
+    </head>
+
+    <body>
+
+        <section>
+
+            <h1>顶部导航</h1>
+            <p>python自动化</p>
+            <hr>
+
+        </section>
+
+        <!--block是一个块标签，content是标签名称-->
+        ｛% block content %｝ {% endblock content %}
+
+        <p>--------------自动化教程-----------------</p>
+
+        <!--block是一个块标签，ad是标签名称-->
+        {% block ad %} {% endblock ad %}
+
+        <section>
+
+            <br><br><br><br><hr>
+            <h1>底部导航</h1>
+            <p>底部一些友情链接。。。。。</p>
+
+        </section>
+
+    </body>
+
+</html>

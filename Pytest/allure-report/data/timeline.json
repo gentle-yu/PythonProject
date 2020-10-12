@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-book",
+    "children" : [ {
+      "name" : "4464-MainThread",
+      "children" : [ {
+        "name" : "test_func_2",
+        "uid" : "cfb5efc5c7c10c18",
+        "parentUid" : "0104fa9a5e8b95294a5ec121d145bf80",
+        "status" : "failed",
+        "time" : {
+          "start" : 1594902967727,
+          "stop" : 1594902967727,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_func_1",
+        "uid" : "bd52497627d2c318",
+        "parentUid" : "0104fa9a5e8b95294a5ec121d145bf80",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594902967722,
+          "stop" : 1594902967722,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_func_0",
+        "uid" : "a2a7f013db01af2e",
+        "parentUid" : "0104fa9a5e8b95294a5ec121d145bf80",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594902967718,
+          "stop" : 1594902967719,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0104fa9a5e8b95294a5ec121d145bf80"
+    } ],
+    "uid" : "eb8e612859c1185705489dff9b6c1f6a"
+  } ]
+}
